@@ -1,4 +1,2 @@
-const lastElement = arr => arr[arr.length - 1];
-const apmRootPath = path.join(repositoryRootPath, 'apm');
 console.log("1 || 2 = "+(1 || 2));
-const uniqueArray = arr => [...new Set(arr)];
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
