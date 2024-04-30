@@ -1,1 +1,1 @@
-const isEmptyArray = arr => !arr.length;
+const getRandomBoolean = () => Math.random() >= 0.5;
