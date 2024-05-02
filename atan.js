@@ -1,3 +1,3 @@
-const isEven = (num) => num % 2 === 0;
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const result = await makeHttpRequest(url);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const stringReverse = str => str.split("").reverse().join("");
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
