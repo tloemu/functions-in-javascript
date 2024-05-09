@@ -1,1 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
