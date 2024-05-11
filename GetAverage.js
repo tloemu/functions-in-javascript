@@ -1,2 +1,2 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const getRandomBoolean = () => Math.random() >= 0.5;
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
