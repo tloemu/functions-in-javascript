@@ -1,2 +1,1 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
