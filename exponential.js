@@ -1,2 +1,3 @@
-console.log("1 && 2 = "+(1 && 2));
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const merge = Object.assign({}, obj1, obj2);
+console.log(false === '0');
