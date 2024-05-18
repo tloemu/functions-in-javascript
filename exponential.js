@@ -1,3 +1,2 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const merge = Object.assign({}, obj1, obj2);
-console.log(false === '0');
+const minNumber = arr => Math.min(...arr);
+const merge = (a, b) => a.concat(b);
