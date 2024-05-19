@@ -1,3 +1,3 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const isEmptyArray = arr => !arr.length;
-const channelName = getChannelName(channel);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const arrayContains = (arr, element) => arr.includes(element);
+console.log( "A" - "B" + 2);
