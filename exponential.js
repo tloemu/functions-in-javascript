@@ -1,2 +1,2 @@
-const minNumber = arr => Math.min(...arr);
-const merge = (a, b) => a.concat(b);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
