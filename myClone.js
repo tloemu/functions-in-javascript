@@ -1,3 +1,3 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const arrayContains = (arr, element) => arr.includes(element);
-console.log( "A" - "B" + 2);
+const channelName = getChannelName(channel);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
