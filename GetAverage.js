@@ -1,2 +1,2 @@
-const updated = numbers.filter(element => element > 6);
-const merge = Object.assign({}, obj1, obj2);
+const maxNumber = arr => Math.max(...arr);
+const channel = getChannel(computedAppVersion);
