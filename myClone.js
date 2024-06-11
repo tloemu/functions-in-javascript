@@ -1,3 +1,3 @@
-const merge = Object.assign({}, obj1, obj2);
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const arrayContains = (arr, element) => arr.includes(element);
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
