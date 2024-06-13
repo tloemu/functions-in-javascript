@@ -1,3 +1,2 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const arrayContains = (arr, element) => arr.includes(element);
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const merge = (a, b) => [...a, ...b];
