@@ -1,2 +1,3 @@
-const merge = [...new Set([...a, ...b])];
-var arr3 = "jones".split('');
+console.log(false == '0');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const result = await makeHttpRequest(url);
