@@ -1,3 +1,3 @@
-console.log(false == '0');
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const result = await makeHttpRequest(url);
+var arr2 = arr1.reverse();
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
