@@ -1,1 +1,1 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
