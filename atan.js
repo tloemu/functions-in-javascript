@@ -1,1 +1,3 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+console.log("0 || 1 = "+(0 || 1));
+const currentDate = () => new Date().toLocaleDateString('en-US');
