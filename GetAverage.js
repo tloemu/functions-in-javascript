@@ -1,2 +1,1 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
