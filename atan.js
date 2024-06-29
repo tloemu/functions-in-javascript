@@ -1,3 +1,3 @@
-var arr3 = "jones".split('');
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-function myAPITS(someString: string, someNum: number) { ... };
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const merge = Object.assign({}, obj1, obj2);
+const appName = getAppName(channel);
