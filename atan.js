@@ -1,3 +1,3 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const merge = Object.assign({}, obj1, obj2);
-const appName = getAppName(channel);
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const isEmptyObject = obj => Object.keys(obj).length === 0;
