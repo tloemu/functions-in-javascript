@@ -1,1 +1,1 @@
-var c = new Counter(); c.add(); c.add(); c.add();
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
