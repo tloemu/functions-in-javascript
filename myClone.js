@@ -1,1 +1,3 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+var arr2 = arr1.reverse();
+const flattenedArray = arr => [].concat(...arr);
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
