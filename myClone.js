@@ -1,3 +1,3 @@
-var arr2 = arr1.reverse();
-const flattenedArray = arr => [].concat(...arr);
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const result = await makeHttpRequest(url);
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
