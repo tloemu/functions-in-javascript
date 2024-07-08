@@ -1,3 +1,3 @@
-const result = await makeHttpRequest(url);
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const uniqueArray = arr => [...new Set(arr)];
+const channel = getChannel(computedAppVersion);
