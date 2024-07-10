@@ -1,2 +1,2 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
