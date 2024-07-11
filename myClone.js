@@ -1,3 +1,2 @@
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
-const uniqueArray = arr => [...new Set(arr)];
-const channel = getChannel(computedAppVersion);
+const lastElement = arr => arr[arr.length - 1];
+const channelName = getChannelName(channel);
