@@ -1,2 +1,2 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const channelName = getChannelName(channel);
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
