@@ -1,2 +1,3 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const repositoryRootPath = path.resolve(__dirname, '..');
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
