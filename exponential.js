@@ -1,3 +1,2 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
