@@ -1,2 +1,1 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
