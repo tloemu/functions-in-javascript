@@ -1,2 +1,2 @@
-const lastElement = arr => arr[arr.length - 1];
-const channelName = getChannelName(channel);
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+[foo, bar] = [bar, foo];
