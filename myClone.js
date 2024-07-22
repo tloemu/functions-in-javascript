@@ -1,2 +1,3 @@
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-[foo, bar] = [bar, foo];
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const channel = getChannel(computedAppVersion);
