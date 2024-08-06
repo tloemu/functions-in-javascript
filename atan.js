@@ -1,2 +1,2 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+[foo, bar] = [bar, foo];
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
